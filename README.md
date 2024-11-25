@@ -19,7 +19,7 @@ The R scripts in this repository can be used to semi-replicate our study finding
   * **01_simulation/final_simulation_env_noise_no_rail.R** - simulation code to estimate census tract level prevalence of transportation noise exposure for states with only road and aircraft noise pollution
   * **01_simulation/final_simulation_occ_noise_bystate.R** - simulation code to estimate census tract level prevalence of workplace noise exposure for each state
   
-  * **02_data_processing/00_acs2015_2019_extraction.R** - extracting relevant sociodemographic characteristics from the 2015-2019 American Community Survey using the tigris package
+  * **02_data_processing/00_acs2015_2019_extraction.R** - extracting relevant sociodemographic characteristics from the 2015-2019 American Community Survey using the `tigris` R package
   * **02_data_processing/01_combining data.R** - integrating the simulated data with the other data inputs
 
   * **03_analysis/00_descriptives.R** - descriptive statistics of the data
@@ -35,7 +35,7 @@ The R scripts in this repository can be used to semi-replicate our study finding
 
   * **ACS_SOC_crosswalk.xlsx** - provides a crosswalk between ACS and SOC occupational codes
   * **acs2017_demos_tract.RData** - sociodemographic characteristics from the 2015-2019 American Community Survey using the tigris package. Associated code can be found in *02_data_processing/00_acs2015_2019_extraction.R*
-Historic Redlining Score 2010B.xlsx - historical redlining scores by 2010 census tracts
+  * **Historic Redlining Score 2010B.xlsx** - historical redlining scores by 2010 census tracts
   * **hmda_decades.rda** - Home Mortgage Disclosure Act Longitudinal Dataset by census tract, which spatially and temporally harmonized mortgage lending data since 1981, and data on household counts by race/ethnicity from the 2000 decennial Census.
   * **ruca2010revised.xlsx** - census tracts were defined as urban or non-urban using the US Department of Agriculture Rural-Urban Commuting Area Codes
   * **tract_occ_ACS_2017.csv** - census tract estimates of major occupational groups in 2017 from the 2015-2019 American Community Survey
